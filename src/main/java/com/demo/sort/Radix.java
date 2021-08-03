@@ -4,6 +4,10 @@ import java.util.Arrays;
 
 /**
  * 基数排序
+ * 时间复杂度:O(dn) d是维度
+ * 空间复杂度:
+ * 不是原地排序
+ * 稳定排序
  */
 public class Radix {
 

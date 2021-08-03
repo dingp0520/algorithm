@@ -5,6 +5,8 @@ import java.util.Arrays;
 /**
  * 桶排序
  * 时间复杂度:当桶的个数接近数据个数时，接近O(n)
+ * 不是原地排序
+ * 稳定排序
  */
 public class Bucket {
 

@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 /**
  * 计数排序
+ * 时间复杂度:O(n+k) k是数据范围
+ * 不是原地排序
+ * 是稳定排序
  */
 public class Counting {
 

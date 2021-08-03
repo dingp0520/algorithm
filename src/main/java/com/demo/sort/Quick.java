@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 /**
  * 快速排序
- * 空间复杂度:O(n)
+ * 空间复杂度:O(1)-原地排序
  * 时间复杂度:O(nlogn)
- *
+ * 不稳定排序
  */
 public class Quick {
 

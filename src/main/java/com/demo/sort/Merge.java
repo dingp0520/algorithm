@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 归并排序
- * 空间复杂度:O(n)
+ * 空间复杂度:O(n)-不是原地排序
  * 时间复杂度:O(nlogn)
  * 稳定排序算法
  */
