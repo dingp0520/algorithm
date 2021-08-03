@@ -10,7 +10,7 @@ import java.util.Arrays;
  */
 public class Quick {
 
-    private void sort(int [] a) {
+    public void sort(int [] a) {
         positionSort(a,0,a.length-1);
     }
 
@@ -66,7 +66,7 @@ public class Quick {
     // }
 
     public static void main(String[] args) {
-        int a[] = {5, 3, 1, 6, 7, 3, 9};
+        int a[] = {5};
         new Quick().sort(a);
         Arrays.stream(a).forEach(System.out::print);
     }
